@@ -7,7 +7,7 @@ dans la console, initialisation du dépôt :
 ````bash
 git init 
 ´´´´
-
+ceci crée un dossier caché nommé .git qui contient tout l historique du projet
 ## visualisation de l'état de GIT
 
 ````bash
@@ -34,10 +34,16 @@ git commut -m"message du commit"
 ````
 un commit est une sauvegarde, on peut y accèder avec un `git log`( affichage des identifiants des sauvegardes et `git show` ( sans paramètre, affichage du derniet commit ) 
 
-##pour ajouter tous les fichiers en stagin
+##pour ajouter tous les fichiers en staging
 
 ````bash git add .
 ````
+## ajouté retirer un fichier staging
+````bash
+git restore --staged README.md
+````
+le fichier 
+
 ## ajout d'un serveur
 
 nous allons utulisier un dépot que l'on va créer sur github.com
